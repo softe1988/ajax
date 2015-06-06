@@ -28,4 +28,14 @@
 
 <br>
 
-<%= link_to 'New Task', new_task_path %>
+<%= link_to 'New Task', new_task_path, remote: true %>
+
+
+<div id="task-form" style="display:none;"></div>  
+
+<h2>Tasks</h2>
+<div id="tasks">
+  <ul>
+    <%= render @tasks %>
+  </ul>
+</div>
