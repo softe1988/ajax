@@ -18,3 +18,13 @@ h2 {
   background: lightslategrey;
   padding: 10px 10px 5px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background: none;
+  text-decoration:line-through;
+  color: #336699;
+}
